@@ -13,6 +13,9 @@ export default function Home() {
         <h1 className={styles.title}>
           Andy Qin
         </h1>
+        <p className={styles.description}>
+          I'm a developer currently working at <a href="https://www.moderntreasury.com/">Modern Treasury</a>.
+        </p>
       </main>
     </div>
   )

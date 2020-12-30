@@ -19,24 +19,25 @@
   align-items: center;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
 .title {
   margin: 0;
   line-height: 1.15;
   font-size: 1rem;
 }
 
-.title,
 .description {
   text-align: center;
+  color: #c8c8c9;
+  font-size: 0.75rem;
+}
+
+.description a {
+  color: #f8f8ff;
+  text-decoration: none;
+}
+
+.description a:hover,
+.description a:focus,
+.description a:active {
+  text-decoration: underline;
 }
